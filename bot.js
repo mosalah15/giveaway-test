@@ -8,7 +8,6 @@ client.on('ready', function() {
 });
 client.on('message',async message => {
 const ms = require('ms')
-  var time = moment().format('Do MMMM YYYY , hh:mm');
   var room;
   var title;
   var duration;
