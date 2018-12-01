@@ -9,7 +9,6 @@ client.on('ready', function() {
 client.on('message',async message => {
     const moment = require('moment');
 const ms = require('ms')
-    var prefix = '-' //بريفكس البوت
   var time = moment().format('Do MMMM YYYY , hh:mm');
   var room;
   var title;
