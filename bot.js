@@ -7,7 +7,6 @@ client.on('ready', function() {
     console.log(`i am ready ${client.user.username}`);
 });
 client.on('message',async message => {
-    const moment = require('moment');
 const ms = require('ms')
   var time = moment().format('Do MMMM YYYY , hh:mm');
   var room;
